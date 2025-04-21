@@ -1,9 +1,10 @@
 # Smart-Contract-Analysis
-#Overview
+
+# Overview
 
 This repository documents my work during the Webacy External Data Analysis Externship, where I contributed to projects related to analyzing and interpreting blockchain-based smart contract data. The goal of this externship was to develop insights from decentralized datasets, identify contract vulnerabilities, and build a foundation for real-time monitoring and alert systems.
 
-#Project Goals
+# Project Goals
 
 Explore external data sources relevant to blockchain security and smart contract activity
  - Clean, label, and structure raw data for deeper analysis
@@ -11,8 +12,9 @@ Explore external data sources relevant to blockchain security and smart contract
  - Apply unsupervised machine learning methods to detect anomalies
  - Present key findings that could help power smarter security and trust tools
 
-#Process
-#Frequency 
+# Process
+
+# Frequency 
 ```
 df = pd.read_excel('/content/compiled_risk_data.xlsx')
 df.head()
@@ -47,7 +49,7 @@ plt.show()
 <img src="https://github.com/user-attachments/assets/43de87e6-57a2-4a1d-8941-428434d0a6be" alt="Alt Text" width="450" height="300">
 We perform a frequency analysis of risk tags in smart contracts to identify how often specific vulnerabilities occur across a dataset. By analyzing features such as is_airdrop_scam, can_take_back_ownership, and Is_honeypot, we can uncover common security risks and gain insight into the overall risk landscape of smart contract ecosystems. This analysis not only highlights the most prevalent issues but also helps guide future auditing efforts, inform risk mitigation strategies, and lay the groundwork for further research or machine learning applications in contract security.
 
-#Clustering
+# Clustering
 ```
 data = pd.read_excel('compiled_risk_data.xlsx')
 data.head()
