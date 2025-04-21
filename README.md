@@ -47,6 +47,7 @@ plt.xticks(rotation=45)
 plt.show()
 ```
 <img src="https://github.com/user-attachments/assets/43de87e6-57a2-4a1d-8941-428434d0a6be" alt="Alt Text" width="450" height="300">
+
 We perform a frequency analysis of risk tags in smart contracts to identify how often specific vulnerabilities occur across a dataset. By analyzing features such as is_airdrop_scam, can_take_back_ownership, and Is_honeypot, we can uncover common security risks and gain insight into the overall risk landscape of smart contract ecosystems. This analysis not only highlights the most prevalent issues but also helps guide future auditing efforts, inform risk mitigation strategies, and lay the groundwork for further research or machine learning applications in contract security.
 
 # Clustering
